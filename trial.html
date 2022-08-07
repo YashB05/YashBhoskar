@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Home CSS
+        .home {
+            align-content: center;
+            display: flex;
+            justify-content: space-around;
+            background-color: lemonchiffon;
+            margin: 2px;
+        }
+
+        .element {
+            margin: 5%;
+            background-color: azure;
+            border-radius: 15px;
+            padding: 5%;
+        }*/
+
+        /*Dashboard CSS
+.DashboardController{
+    background-color: lightpink;
+}
+    .block{
+    margin-top: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.element{
+    align-content: center;
+    text-align: center;
+    flex-basis: 31%;
+    background-color: floralwhite;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}*/
+
+        /*Recharge CSS*/
+        .recharge {
+            align-items: center;
+            background-color: darksalmon;
+            text-align: center;
+            table-layout: auto;
+            margin: 10%;
+            border-radius: 20px;
+        }
+
+        .block {
+            margin-top: 5%;
+            display: grid;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .element {
+            align-content: center;
+            text-align: center;
+            flex-basis: 50%;
+            background-color: floralwhite;
+            border-radius: 10px;
+            margin: 30px;
+            padding: 20px 12px;
+            box-sizing: border-box;
+        }
+
+
+
+        
+
+    </style>
+
+
+</head>
+
+<body>
+    <!---Home HTML 
+    <section>
+        <div class="home">
+            <div class="element">
+                <h1>WELCOME TO MY BANK</h1>
+            </div>
+            <div class="element">
+                <h4>Already Have Account</h4>
+                <a href="Login.html">Login Here</a>
+            </div>
+            <div class="element">
+                <h4>Don't Have Account</h4>
+                <a href="Register.html">Register Here</a>
+            </div>
+        </div>
+    </section> -->
+
+    <!--Dashboard HTML  
+    <section class="DashboardController">
+		<div class="block">
+			<div class="element">
+				<h3> Mobile Recharge </h3>
+				<input type="submit" value="Recharge">
+			</div>
+			<div class="element">
+				<h3> Electricity Bill </h3>
+				<input type="submit" value="Ebil">
+			</div>
+			<div class="element">
+				<h3> Fas Tag </h3>
+				<input type="submit" value="fastag">
+			</div>
+		</div>
+	</section> -->
+
+    <!--Recharge HTML-->
+    <form action="RechargeController">
+        <section class="recharge">
+            <div class="block">
+                <div class="element">
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td><input type="text" name="mobNo"></td>
+                    </tr>
+                </div>
+                <div class="element">
+                    <tr>
+                        <td>Recharge Amount</td>
+                        <td><input type="text" name="recrgamt"></td>
+                    </tr>
+                </div>
+                <div class="element">
+                    <tr>
+                        <td>Service Provider</td>
+                        <td><select name="servcPro">
+                                <option value="Airtel">Airtle</option>
+                                <option value="Jio">Jio</option>
+                                <option value="BSNL">BSNL</option>
+                                <option value="VI">VI</option>
+                            </select></td>
+                    </tr>
+                </div>
+
+                <div class="element">
+                    <tr>
+                        <td><input type="submit" value="Recharge"></td>
+                    </tr>
+                </div>
+
+            </div>
+        </section>
+    </form>
+<section>
+
+
+</section>
+</body>
+
+</html>
